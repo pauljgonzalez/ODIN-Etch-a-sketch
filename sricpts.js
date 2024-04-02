@@ -1,13 +1,16 @@
 const grid = document.querySelector("#grid");
+let size = grid.value;
 
-
-document.querySelector(".grid-size").innerHTML= grid.value + " x " + grid.value;
+document.querySelector(".grid-size").innerHTML= size + " x " + size;
 
 grid.addEventListener("mousemove",(e) =>{
-    
-    document.querySelector(".grid-size").innerHTML= grid.value + " x " + grid.value;
+    let gridSquares = grid.value;
+    document.querySelector(".grid-size").innerHTML= gridSquares + " x " + gridSquares;
+
+   
 
 })
+
 
 
 
