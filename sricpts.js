@@ -1,8 +1,19 @@
-const gridSize = document.querySelector("#grid");
+const grid = document.querySelector("#grid");
 
 
-    var x = gridSize.value;
-    document.querySelector(".grid-size").innerHTML=x;
+document.querySelector(".grid-size").innerHTML= grid.value + " x " + grid.value;
+
+grid.addEventListener("mousemove",(e) =>{
+    
+    document.querySelector(".grid-size").innerHTML= grid.value + " x " + grid.value;
+
+})
+
+
+
+
 
     
+
+
 
