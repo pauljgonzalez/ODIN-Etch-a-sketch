@@ -38,7 +38,7 @@
     gap: 32px   ;
 }
 
-.grid{
+.grid-container{
     width: 600px;
     height: 600px;
     margin-left: 256px;
@@ -46,7 +46,12 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    outline: 1px solid black;
+    
+    
 }
 .grid-square{
-
+width: 100px;
+height: 100px;
+outline: 1px solid #B4B4B4;
 }
